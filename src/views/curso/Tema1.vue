@@ -22,7 +22,7 @@
 
     p.mb-4 El desarrollo emocional en la infancia constituye un eje central en la formación de vínculos saludables y en la construcción de la identidad personal.
 
-    .bg-full-width.bg-color-6.mb-lg-5
+    .bg-full-width.bg-color-6.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
@@ -43,10 +43,10 @@
       h2 #[span 1.2] Formas de expresión emocional en los niños y las niñas
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/4.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         h5 ¿Cómo los niños y las niñas comunican lo que sienten? ¿Cómo se expresan y qué impacto tienen estas expresiones en su desarrollo emocional?
         p(data-aos="fade-left") La expresión emocional en la infancia es un proceso complejo y fundamental para el desarrollo integral de los niños. Desde los primeros días de vida, las emociones comienzan a manifestarse a través de señales no verbales como el llanto, las sonrisas o el lenguaje corporal. 
     
@@ -150,10 +150,10 @@
         p Desde el momento en que nacen, los niños dependen de sus cuidadores para satisfacer no solo sus necesidades físicas, sino también sus necesidades emocionales. El amor, la protección y la atención que los niños reciben de sus figuras afectivas cercanas se convierten en los cimientos de su desarrollo emocional. 
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         .bg-color-4.p-4.mb-5(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
