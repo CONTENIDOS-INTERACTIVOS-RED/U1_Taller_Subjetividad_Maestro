@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-5 La unidad 1: Lo afectivo y las emociones en los procesos socializadores de las infancias, profundiza en la importancia del mundo emocional en la formación de vínculos, la construcción de identidad y el desarrollo socioemocional en la niñez. Esta unidad invita a una reflexión crítica sobre la autobiografía emocional del educador, proponiendo la exploración de sus propias vivencias afectivas como base para comprender y transformar la práctica pedagógica. A través de tres núcleos temáticos —las relaciones afectivas, la valoración cultural de las emociones y el cuidado de sí y de los otros— se promueve una pedagogía sensible, empática y comprometida con el bienestar emocional de niñas y niños.
 
       .row.justify-content-center
         .col-lg-12.mb-5
