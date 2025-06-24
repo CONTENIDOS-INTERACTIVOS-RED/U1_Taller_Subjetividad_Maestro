@@ -229,7 +229,6 @@
 
 </template>
 
-
 <script>
 import Actividad from '@/components/actividad/Actividad.vue'
 export default {
