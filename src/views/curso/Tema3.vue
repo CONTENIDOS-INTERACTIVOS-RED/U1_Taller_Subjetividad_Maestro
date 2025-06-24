@@ -178,7 +178,11 @@
             p.mb-0 La creación de un ambiente emocionalmente seguro en el aula es fundamental para promover el bienestar de los niños y su desarrollo académico. Un entorno donde los niños se sienten aceptados y valorados, donde sus emociones son comprendidas y respetadas, les permite desarrollar una autoestima sólida y una mayor confianza en sí mismos. Además, esta seguridad emocional facilita el proceso de aprendizaje, debido a que los niños pueden concentrarse en las actividades académicas sin estar distraídos por emociones no gestionadas. Los educadores juegan un papel clave en este proceso, porque son ellos quienes deben modelar conductas empáticas, ofrecer respuestas emocionales adecuadas y proporcionar apoyo constante para ayudar a los niños a regular sus emociones.
     
       
-
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+          
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -225,9 +229,205 @@
 
 </template>
 
+
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Taller Subjetividad del Maestro',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es el papel de las emociones en la infancia, según el contenido del taller?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Deben ser controladas para evitar distracciones en el aprendizaje.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Se desarrollan de forma espontánea sin necesidad de acompañamiento.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Son una herramienta educativa clave que moldea la socialización y el desarrollo integral.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Son reacciones pasajeras sin impacto en la vida futura del niño o niña.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              'Según el contenido del taller, ¿qué papel cumple la empatía en el desarrollo socioemocional de los niños y niñas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Facilita la comprensión y validación de las emociones de los demás, fortaleciendo vínculos. ',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Favorece el distanciamiento emocional entre pares para lograr independencia.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Permite que los niños desarrollen autonomía sin necesidad de apoyo afectivo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Reduce la necesidad de expresar emociones en contextos escolares.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué caracteriza un vínculo afectivo seguro en la infancia?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Se basa exclusivamente en el cumplimiento de normas y rutinas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Proporciona al niño seguridad emocional, apoyo y bienestar, fortaleciendo su autoestima.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Depende del grado de autonomía alcanzado por el niño.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Surge cuando el niño evita apegos para formar independencia emocional.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cómo influye la cultura en la regulación emocional infantil según el documento?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'No influye, ya que las emociones son universales y biológicas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Establece las emociones que deben ser reprimidas durante la adolescencia únicamente.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Determina las capacidades cognitivas necesarias para expresar emociones.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Define qué emociones pueden o no ser expresadas y en qué contextos.',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué se entiende por autoconciencia emocional según Goleman (2010)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'La capacidad de reconocer las emociones de los demás en contextos escolares.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Un proceso de expresión libre de emociones sin restricción cultural.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'La habilidad de observar y comprender el mundo emocional propio, reconociendo fortalezas y debilidades.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'El desarrollo exclusivo de emociones positivas para evitar conflictos interpersonales.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -236,4 +436,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
