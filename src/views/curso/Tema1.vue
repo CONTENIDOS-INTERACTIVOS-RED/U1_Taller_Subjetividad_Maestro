@@ -218,7 +218,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/631 " target="_blank" rel="noopener noreferrer") López Cassà, É. (2011). Educar las emociones en la infancia (de 0 a 6 años): reflexiones y propuestas prácticas: ( ed.). LA LEY Soluciones Legales S.A. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/63167 " target="_blank" rel="noopener noreferrer") López Cassà, É. (2011). Educar las emociones en la infancia (de 0 a 6 años): reflexiones y propuestas prácticas: ( ed.). LA LEY Soluciones Legales S.A. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

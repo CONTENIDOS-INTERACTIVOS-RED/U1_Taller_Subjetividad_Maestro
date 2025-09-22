@@ -107,7 +107,7 @@
             h2.mb-4(data-aos="flip-up") Manifestaciones emocionales en diferentes contextos sociales
             p.mb-4(data-aos="fade-right") En el PDF <b>Manifestaciones emocionales en diferentes contextos sociales</b>, se explora cómo las normas culturales, familiares, escolares y de género modelan la manera en que se perciben y expresan las emociones. A través de una reflexión crítica, se invita a reconocer estas dinámicas para construir espacios educativos más empáticos, respetuosos y emocionalmente conscientes.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
